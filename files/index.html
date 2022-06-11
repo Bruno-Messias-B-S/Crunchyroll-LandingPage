@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka:wght@300&family=Plus+Jakarta+Sans:wght@200&family=Roboto+Mono:wght@300&family=Signika+Negative:wght@300&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="menu-opened">
+        <span>Séries</span>
+        <span>Notícias</span>
+        <span>Games</span>
+        <span>Premium</span>
+    </div>
+    <main>
+    <header>
+        <div class="header">
+        <div class="header-items">
+            <div class="side-one">
+                <img class="crunchy-logo" src="../imageFiles/png/crunchyroll-logo.png" />
+                <a class="series hovers">Séries</a>
+                <a class="noticias hovers">Notícias</a>
+                <a class="games hovers">Games</a>
+                <a class="premium hovers">Premium</a>
+            </div>
+            <div class="side-two">
+                <img class="user-icon hovers" src="../imageFiles/png/user.png">
+                <img onclick="openMenu()" class="menu-opener hovers" src="../imageFiles/png/menu-aberto.png" />
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <div class="btns-banner">
+        <div class="btn-container">
+            <img class="crunchy-logo-banner" src="../imageFiles/png/crunchyroll-logo-2.png">
+            <div class="btns">
+            <button class="btn-one hovers">Entrar</button>
+            <button class="btn-two hovers">Cadastre-se</button>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <section class="sec-one">
+        <div class="catalogo-container">
+            <p class="catalogo-title">O Maior Catálogo de Animes do Mundo</p>
+            <button class="premium-btn hovers">VER PLANOS PREMIUM</button>
+        </div>
+        <div class="infos">
+            <div class="time-container icons">
+                <img class="icon-catalogo" src="../imageFiles/png/relogio.png" />
+                <p>Assista a novos episódios uma hora após a exibição no Japão</p>
+            </div>
+            <div class="acesso-container icons">
+                <img class="icon-catalogo" src="../imageFiles/png/exclamacao.png" />
+                <p>Desfrute de acesso ilimitado a animes, sem propaganda</p>
+            </div>
+            <div class="unidades-container icons">
+                <img class="icon-catalogo" src="../imageFiles/png/folheto.png" />
+                <p>Leia centenas de capítulos de dúzias de mangás diferentes</p>
+            </div>
+            <div class="desconto-container icons">
+                <img class="icon-catalogo" src="../imageFiles/png/sacola-de-compras.png" />
+                <p>Economize com descontos exclusivos na Loja Crunchyroll</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-two">
+        <div class="sec2-title-container">
+            <h3>Assista onde quiser, quando quiser</h3>
+            <p>Assista no seu PC, celular, Xbox, PS4, Roku, Apple TV e qualquer outro dispositivo que tenha iOS ou Android.</p>
+            <button class="premium-btn2 premium-btn hovers">VER PLANOS PREMIUM</button>
+        </div>
+    </section>
+
+    <section class="sec-three">
+        <div class="title-prices-container">
+        <h3>Aproveite mais com Premium</h3>
+        <p>Assinantes podem desfrutar de um monte de vantagens.</p>
+        </div>
+
+        <div class="boxes">
+            <div class="box">
+                <div class="box-one">
+                    <img class="coroa" src="../imageFiles/png/coroa.png" />
+                    <p class="fan">FAN</p>
+                    <p class="price">R$ 25,00/mês</p>
+                    <p class="impostos">+ IMPOSTOS APLICÁVEIS</p>
+                    <button class="premium-btn-side premium-btn hovers">INICIAR TESTE GRATUITO DE 14 DIAS</button>
+                    <button class="premium-btn2">PULAR TESTE GRATUITO</button>
+                </div>
+                <div class="box-two">
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>Sem anúncios</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>Acesso ilimitado ao acervo da Crunchyroll</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>Novos episódios logo após a exibição no Japão</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>Assista em até 1 tela</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/x.png" />
+                        <p class="x">Offline Viewing</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/x.png" />
+                        <p class="x">16% de desconto na anuidade (cobrado a cada 12 meses)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box box-fieldset">
+                <span class="legend">MELHOR OFERTA</span>
+            <div class="box-one">
+                <img class="coroa" src="../imageFiles/png/coroa.png" />
+                <p class="fan">MEGA FAN (1 Mês)</p>
+                <p class="price">R$ 32,00/mês</p>
+                <p class="impostos">+ IMPOSTOS APLICÁVEIS</p>
+                <button class="premium-btn3 middle hovers">INICIAR TESTE GRATUITO DE 14 DIAS</button>
+                <button class="premium-btn2">PULAR TESTE GRATUITO</button>
+            </div>
+            <div class="box-two">
+                <div class="avisos">
+                    <img class="verify" src="../imageFiles/png/verifica.png" />
+                    <p>Sem anúncios</p>
+                </div>
+                <div class="avisos">
+                    <img class="verify" src="../imageFiles/png/verifica.png" />
+                    <p>Acesso ilimitado ao acervo da Crunchyroll</p>
+                    </div>
+                <div class="avisos">
+                    <img class="verify" src="../imageFiles/png/verifica.png" />
+                    <p>Novos episódios logo após a exibição no Japão</p>
+                </div>
+                <div class="avisos">
+                    <img class="verify" src="../imageFiles/png/verifica.png" />
+                    <p>Assista em até 1 tela</p>
+                </div>
+                <div class="avisos">
+                    <img class="verify" src="../imageFiles/png/verifica.png" />
+                    <p>Offline Viewing</p>
+                </div>
+                <div class="avisos">
+                    <img class="verify" src="../imageFiles/png/x.png" />
+                    <p class="x">16% de desconto na anuidade (cobrado a cada 12 meses)</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="box">
+                <div class="box-one">
+                    <img class="coroa" src="../imageFiles/png/coroa.png" />
+                    <p class="fan">MEGA FAN (12 Meses)</p>
+                    <p class="price">R$ 315,00/ano</p>
+                    <p class="impostos">+ IMPOSTOS APLICÁVEIS</p>
+                    <button class="premium-btn-side2 premium-btn hovers">INICIAR TESTE GRATUITO DE 14 DIAS</button>
+                    <button class="premium-btn2">PULAR TESTE GRATUITO</button>
+                </div>
+                <div class="box-two">
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>Sem anúncios</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>Acesso ilimitado ao acervo da Crunchyroll</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>Novos episódios logo após a exibição no Japão</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>Assista em até 1 tela</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>Offline Viewing</p>
+                    </div>
+                    <div class="avisos">
+                        <img class="verify" src="../imageFiles/png/verifica.png" />
+                        <p>16% de desconto na anuidade (cobrado a cada 12 meses)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="account">
+        <span>Ou crie uma <a>conta gratuita</a> e comece a assistir.</span>
+    </div>
+
+    <footer>
+        <span>Made by:  <a href="https://www.linkedin.com/in/bruno-messias-bs/" target="_blank">Bruno Messias</a></span>
+    </footer>
+
+    <script src="./hovers.js"></script>
+</body>
+</html>
