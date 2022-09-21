@@ -94,6 +94,14 @@ header {
     padding-left:10px;
 }
 
+.hovers {
+    transition: all 0.2s ease-in-out;
+}
+
+.hovers:hover {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
 
 /* MAIN */
 
@@ -138,6 +146,14 @@ main {
     color:rgb(255, 115, 0);
     cursor: pointer;
     font-size:16px;
+    transition: 0.2s;
+}
+
+.btn-one:hover {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    box-shadow: 3px 3px rgb(163, 74, 0);
+    background-color: white;
 }
 
 .btn-two {
@@ -148,6 +164,14 @@ main {
     color:white;
     cursor: pointer;
     font-size:16px;
+    transition: 0.2s;
+}
+
+.btn-two:hover {
+    margin-top: -5px;
+    margin-bottom: 5px;
+    box-shadow: 3px 3px rgb(163, 74, 0);
+    background-color: transparent;
 }
 
 .crunchy-logo-banner {
@@ -223,6 +247,11 @@ main {
     font-weight: bold;
     cursor: pointer;
     font-family: 'Fredoka', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+.premium-btn:hover {
+    background-color:rgb(255, 123, 35);
 }
 
 
@@ -391,6 +420,12 @@ main {
     margin-right:20px;
     margin-left:20px;
     margin-bottom:10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.middle:hover {
+    background-color: rgb(255, 123, 35);
+    border:3px solid rgb(255, 123, 35);
 }
 
 .box-one .premium-btn2 {
